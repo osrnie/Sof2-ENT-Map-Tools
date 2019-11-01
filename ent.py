@@ -26,15 +26,6 @@ def toEnt(arr, **properties):
 	
 
 
-# Debugging:
-
-r1 = duplicate(fillRectangle(Point(), Point(10,10,10), Point(), False), Point(100,100,100), 2)
-
-print(len(r1))
-print(toEnt(r1, classname = 'test', spawnflags = 2))
-#spit(r1)
-
-
 
 
 
