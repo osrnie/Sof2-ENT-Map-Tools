@@ -40,5 +40,85 @@ print(toEnt(r1, classname = 'test', spawnflags = 2))
 ```
 the output should be:
 ```
-
+16
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "0 0 0"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "10 0 0"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "0 10 0"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "10 10 0"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "0 0 10"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "10 0 10"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "0 10 10"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "10 10 10"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "100 100 100"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "110 100 100"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "100 110 100"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "110 110 100"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "100 100 110"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "110 100 110"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "100 110 110"
+}
+{
+"classname" "test"
+"spawnflags" "2"
+"origin" "110 110 110"
+}
 ```
