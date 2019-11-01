@@ -27,4 +27,5 @@ Generate .ent objects for SOF2 maps easier
  - **toEnt**(array, properties):
     * A function that format the finished array to represent actual Entity codes (for the .ent files)
     * **array**: the finished shape & its duplicates as a single array
-    * **properties**: all the different entity keys, this is a \**kwarg (Keyword Argument), to use it first use the key as the variable and then equate it to its value, for example: (classname = 'misc_bsp') will output: ("classname" "misc_bsp")
+    * **properties**: all the different entity keys, this is a \**kwarg (Keyword Argument), to use it first use the key as the variable and then equate it to its value, for example:
+    `classname = 'misc_bsp'` will output: `"classname" "misc_bsp"`
