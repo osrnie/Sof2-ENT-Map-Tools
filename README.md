@@ -40,7 +40,6 @@ print(toEnt(r1, classname = 'test', spawnflags = 2))
 ```
 the output should be:
 ```
-16
 {
 "classname" "test"
 "spawnflags" "2"
