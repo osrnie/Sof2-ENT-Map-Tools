@@ -1,14 +1,5 @@
 from Points import *
 
-## Setting a default point (0,0,0) ##
-DEF_POINT = Point()
-
-## Spits the points for debugging ##
-def spit(arr):
-    print(f"List length: {len(arr)}")
-    for i in range(len(arr)):
-        print(arr[i].toString())
-
 
 def toEnt(arr, **properties):
 	pts = ''
@@ -24,8 +15,3 @@ def toEnt(arr, **properties):
 		
 	return txt
 	
-
-
-
-
-
