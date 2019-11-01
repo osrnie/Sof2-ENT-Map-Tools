@@ -12,10 +12,12 @@ Generate .ent objects for SOF2 maps easier
     
   for example:
     here, the 2 corners could be any opposite corners of the rectangle, i.e (p1,p8) (p3,p6) etc....
+    ```
     p6 -- p8
     p5 -- p7
     p2 -- p4
     p1 -- p3
+    ```
     
  - **duplicate**(array, offset, times):
     * A functin that duplicates an array and increments its values with defined offset.
