@@ -29,3 +29,16 @@ Generate .ent objects for SOF2 maps easier
     * **array**: the finished shape & its duplicates as a single array
     * **properties**: all the different entity keys, this is a \**kwarg (Keyword Argument), to use it first use the key as the variable and then equate it to its value, for example:
     `classname = 'misc_bsp'` will output: `"classname" "misc_bsp"`
+
+## Code example:
+```python
+# First creating the shape:
+r1 = duplicate(fillRectangle(Point(), Point(10,10,10), Point(), False), Point(100,100,100), 2)
+
+# Printing the formatted code to the console:
+print(toEnt(r1, classname = 'test', spawnflags = 2))
+```
+the output should be:
+```
+
+```
