@@ -1,6 +1,11 @@
 # Sof2-ENT-Map-Tools
 Generate .ent objects for SOF2 maps easier
 
+## Installation:
+  - Clone / download the repository, make sure `Point.py` and `ent.py` are in the same directory.
+  - Make a new python script inside the main directory and import ent.py => `from ent import *`
+  - Write your code in the new file you created, to check if everything imported correctly you can `print(Point().toString())` and you should get `"0 0 0"` in the console.
+
 ## API Documentation:
 - **Point**(x, y, z):
   Class for making a coordinate in the space takes 3 integers (/viewpos in-game)
