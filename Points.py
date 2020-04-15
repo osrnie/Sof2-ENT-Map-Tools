@@ -1,9 +1,15 @@
 class Point:
     def __init__(self, x=0, y=0, z=0):
-        self.x = x
-        self.y = y
-        self.z = z
-
+    	try:
+    		self.x = int(x) 
+    		self.y = int(y)
+    		self.z = int(z)
+    	except:
+    		return 'One of your Point parameters was not a number! setting 0 as defaults'
+    		self.x = 0 
+    		self.y = 0
+    		self.z = 0
+    		
     def toString(self):
         return f'\"{self.x} {self.y} {self.z}\"'
 
@@ -59,11 +65,4 @@ def duplicate(arr, offset=Point(100, 100, 100), times=2):
         temp = buffer.copy()
 
     return arr
-
-
-# Spits the points for debugging
-def spit(arr):
-    print(f"List length: {len(arr)}")
-    for i in range(len(arr)):
-        print(arr[i].toString())
 
